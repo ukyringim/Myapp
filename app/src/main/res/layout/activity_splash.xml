@@ -10,10 +10,23 @@
         android:id="@+id/text"
         android:layout_width="300dp"
         android:layout_height="50dp"
+
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:hint="Click Me"
         android:textSize="25dp"
+        android:inputType="number"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/n_text"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:hint="Click Me"
+        android:textSize="25sp"
         android:inputType="number"
         android:textStyle="bold"/>
     <Button
